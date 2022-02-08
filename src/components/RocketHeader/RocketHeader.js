@@ -9,7 +9,7 @@ const RocketHeader = ({ id, name }) => {
         backgroundSize: 'cover',
         height: '100vh',
     };
-
+    console.log(id, name);
     return (
         <div className="d-flex flex-column justify-content-around w-100">
             <div style={imgStyle}>
